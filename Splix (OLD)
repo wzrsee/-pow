@@ -2,11 +2,15 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/wzrsee/-pow/main/Splix"))() -- Could Also Save It In Your Workspace And Do loadfile("Library.lua")()
 -- // Variables
 -- // Init
-local Window = Library:New({Name = "Splix Private Poop UI", Accent = Color3.fromRGB(25, 240, 100)})
+local Window = Library:New({Name = "Splix Private", Accent = Color3.fromRGB(177, 156, 217)})
 --
-local Aimbot = Window:Page({Name = "Aimbot"})
+local Aimbot = Window:Page({Name = "Legit"})
+local Visuals = Window:Page({Name = "Rage"})
+local Players = Window:Page({Name = "Players"})
 local Visuals = Window:Page({Name = "Visuals"})
+local Misc = Window:Page({Name = "Misc"})
 local Settings = Window:Page({Name = "Settings"})
+local config = Window:Page({Name = "Config"})
 --
 local Aimbot_Main = Aimbot:Section({Name = "Main", Side = "Left"})
 local Aimbot_Extra = Aimbot:Section({Name = "Extra", Side = "Right"})
