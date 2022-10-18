@@ -106,7 +106,7 @@ do
             frame.Filled = true
             frame.Thickness = 0
             frame.Color = Color3.fromRGB(255,255,255)
-            frame.Size = Vector2.new(20,100)
+            frame.Size = Vector2.new(100,100)
             frame.Position = Vector2.new(0,0)
             frame.ZIndex = 50
             frame.Transparency = library.shared.initialized and 1 or 0
@@ -370,7 +370,7 @@ do
     function library:New(info)
 		local info = info or {}
         local name = info.name or info.Name or info.title or info.Title or "UI Title"
-        local size = info.size or info.Size or Vector2.new(200,200)
+        local size = info.size or info.Size or Vector2.new(504,603)
         local accent = info.accent or info.Accent or info.color or info.Color or theme.accent
         --
         theme.accent = accent
