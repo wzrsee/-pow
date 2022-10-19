@@ -4,7 +4,7 @@ local window = library:new({textsize = 13.5,font = Enum.Font.RobotoMono,name = "
 
 local tab = window:page({name = "YES2"})
 
-local section1 = tab:section({name = "section1",side = "left",size = 250})
+local section1 = tab:section({name = "section1",side = "left",size = 300})
 
 local multisection = tab:multisection({name = "multisection",side = "right",size = 250})
 
